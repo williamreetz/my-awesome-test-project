@@ -6,7 +6,7 @@ before_script:
   - npm i -g jasmine
 deploy:
   provider: heroku
-	api-key:
+  api-key:
     secure: $HEROKU_API_KEY
   app: my-awesome-test-project
   on: master
