@@ -1,0 +1,23 @@
+{
+  "name": "my-awesome-test-project",
+  "version": "1.0.0",
+  "description": "Just for testing.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamreetz/my-awesome-test-project.git"
+  },
+  "author": "William Reetz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamreetz/my-awesome-test-project/issues"
+  },
+  "homepage": "https://github.com/williamreetz/my-awesome-test-project#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
