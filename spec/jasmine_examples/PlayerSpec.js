@@ -9,6 +9,10 @@ describe("Player", function() {
     song = new Song();
   });
 
+  it("should break the test", function() {
+    expect(player).toBePlaying({});
+  });
+
   it("should be able to play a Song", function() {
     player.play(song);
     expect(player.currentlyPlayingSong).toEqual(song);
